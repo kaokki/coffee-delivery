@@ -59,7 +59,7 @@ function Cart() {
 
   return (
     <CartContainer>
-      {orders.length <= 1 ? (
+      {orders.length === 0 ? (
           <p className="vazio">Seu carrinho está vazio, adicione algum item.</p>
         ) : (
           <>

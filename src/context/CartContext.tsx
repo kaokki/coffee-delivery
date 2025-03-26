@@ -106,9 +106,6 @@ export const CartProvider = ({children}: CartContextProviderProps) => {
 
     setOrders(nextOrders);
   }
-    
-    
-  
 
   const handleDeleteItem = (itemId: string) => {
     setOrders(
